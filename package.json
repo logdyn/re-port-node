@@ -1,0 +1,29 @@
+{
+  "name": "re-port",
+  "version": "0.1.0",
+  "description": "Enables easy logging, client <--> server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logdyn/re-port-node.git"
+  },
+  "keywords": [
+    "logging",
+    "logdyn"
+  ],
+  "author": "Logdyn Team <contact@logdyn.com> (logdyn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logdyn/re-port-node/issues"
+  },
+  "homepage": "https://github.com/logdyn/re-port-node#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "ws": "^6.0.0"
+  }
+}
